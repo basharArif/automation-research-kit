@@ -1,0 +1,62 @@
+
+# requirements.txt - Automation Research Package Dependencies
+# Pinned versions for reproducibility | Generated: October 2025
+
+# Core Scientific Computing
+numpy
+scipy
+matplotlib
+pandas
+scikit-learn
+
+# Machine Learning & Reinforcement Learning
+torch
+torchvision
+stable-baselines3
+gymnasium
+tensorboard
+
+# Computer Vision & Image Processing
+opencv-python
+Pillow
+imgaug
+
+# Web Automation & RPA
+selenium
+beautifulsoup4
+requests
+lxml
+webdriver-manager
+
+# Visualization & Plotting
+seaborn
+plotly
+pydot
+
+# Robotics & Simulation (optional - may require separate installation)
+# ROS2 installation recommended via rosdep: https://docs.ros.org
+# Gazebo installation: https://gazebosim.org/docs/harmonic/install
+
+# Utilities & Tools
+tqdm
+pyyaml
+python-dotenv
+pydantic
+pytest
+black
+pylint
+
+# Jupyter & Notebooks
+jupyter
+jupyterlab
+ipython
+ipykernel
+
+# Documentation
+sphinx
+sphinx-rtd-theme
+
+# Development Tools (optional)
+pre-commit
+mypy
+isort
