@@ -17,7 +17,7 @@ tensorboard==2.13.0
 
 # Computer Vision & Image Processing
 opencv-python==4.8.0
-Pillow==10.0.0
+Pillow==12.2.0
 imgaug==0.4.0
 
 # Web Automation & RPA
