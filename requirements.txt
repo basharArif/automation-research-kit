@@ -16,7 +16,7 @@ gymnasium==0.28.0
 tensorboard==2.13.0
 
 # Computer Vision & Image Processing
-opencv-python==4.8.0
+opencv-python==4.8.1.78
 Pillow==10.0.0
 imgaug==0.4.0
 
