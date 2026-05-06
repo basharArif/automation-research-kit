@@ -18,4 +18,4 @@ We welcome contributions to this research package. Please follow these guideline
 
 ## Style Guide
 
-Please follow the existing coding style and formatting. For Python code, we adhere to the PEP 8 style guide.
+Please follow the existing markdown formatting and structure. Ensure all technical documentation is rigorously cited and fact-checked before submitting a pull request.
