@@ -28,6 +28,8 @@ jobs:
           cache-dependency-path: website/package-lock.json
       - name: Setup Pages
         uses: actions/configure-pages@v5
+        with:
+          enablement: true
       - name: Install dependencies
         working-directory: ./website
         run: npm install --legacy-peer-deps
