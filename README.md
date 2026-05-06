@@ -3,7 +3,7 @@
 A complete research and learning kit for automation, covering foundational principles from classical PID control to modern AI-driven systems. Includes detailed documentation and hands-on Python experiments.
 
 **Version**: 1.0  
-**Last Updated**: October 25, 2025  
+**Last Updated**: 2026-05-07  
 **License**: MIT
 
 ---

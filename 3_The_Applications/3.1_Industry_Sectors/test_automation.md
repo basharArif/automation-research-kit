@@ -1,6 +1,6 @@
 # Sector Brief: Test Automation
 
-**Version**: 1.0 | **Date**: October 25, 2025
+**Version**: 1.0 | **Date**: 2026-05-07
 
 ---
 

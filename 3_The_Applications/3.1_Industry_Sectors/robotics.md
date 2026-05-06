@@ -1,8 +1,14 @@
 # Sector Brief: Robotics
 
-**Version**: 1.0 | **Date**: October 25, 2025
+**Version**: 2.0 | **Last Updated**: 2026-05-07
 
 ---
+
+## See Also
+- [AI-Driven Automation](ai_driven_automation.md) — foundation models for robotics (RT-2, Octo, π0)
+- [Autonomous Vehicles](autonomous_vehicles.md) — robotics applied to transportation
+- [Research Frontiers](../../4_The_Horizons/4.1_Research_Frontiers.md) — sim2real, safe RL, HRC open problems
+- [Benchmarks and KPIs](../../2_The_Core/2.3_Benchmarks_and_KPIs.md) — robotics performance metrics
 
 ## 1. Overview
 
@@ -169,10 +175,10 @@ ROS is an open-source, meta-operating system for robots. It provides a set of so
 ## 9. Economics and Market
 
 ### 9.1 Market Statistics
-*   **Global Market Size:** $62B in 2024, CAGR of 14%
-*   **Industrial Robots:** 4 million+ units installed globally
-*   **Cobots:** 70% CAGR, expected to reach 350,000+ units by 2025
-*   **Key Growth Areas:** Logistics, healthcare, agriculture
+*   **Global Market Size:** $62B in 2025, CAGR of 14% projected through 2030
+*   **Industrial Robots:** 4.28M+ units operational globally [IFR World Robotics Report, 2025]
+*   **Cobots:** 25%+ of new robot installations; Universal Robots market leader by units
+*   **Key Growth Areas:** Logistics, healthcare, agriculture, humanoids
 
 ### 9.2 ROI Considerations
 *   **Typical Payback Period:** 1-3 years for industrial applications
@@ -193,15 +199,62 @@ ROS is an open-source, meta-operating system for robots. It provides a set of so
 *   **Quantum Computing:** Potential for optimization and learning acceleration
 *   **Digital Twins:** Real-time simulation for predictive maintenance
 
-## 11. Future Outlook
+## 11. Humanoid Robots (2024–2026 Emergence)
 
-The robotics sector is experiencing rapid evolution driven by advances in AI, sensors, and materials. Key trends include:
-- **Democratization:** Easier programming through AI and intuitive interfaces
-- **Integration:** Seamless integration with Industry 4.0 systems
-- **Specialization:** Robots designed for increasingly specific applications
-- **Human-Robot Teams:** Complementary rather than replacement approaches
+Humanoids crossed from demonstration to pilot production during 2024–2026—a qualitative milestone for the robotics industry:
 
-As the technology matures, we expect to see robotics deployment expand from traditional manufacturing into new application domains requiring dexterity, adaptability, and cognitive capabilities.
+### Key Platforms (2026)
+
+| Platform | Developer | Key Deployment | Units (est.) |
+|---|---|---|---|
+| **Optimus Gen 2** | Tesla | Fremont Gigafactory — battery handling, inspection | 1,000+ |
+| **Figure 02** | Figure AI | BMW Spartanburg manufacturing | Commercial pilot |
+| **Digit** | Agility Robotics | Amazon fulfillment centers | 1,000+ pilot |
+| **Atlas (electric)** | Boston Dynamics | Hyundai factory research + pilot | Research |
+| **1X NEO** | 1X Technologies | Facility security and inspection | Commercial |
+| **GR-1** | Fourier Intelligence | Rehabilitation and industrial (China) | Commercial |
+
+**Current capabilities**: Walking on varied terrain, stair climbing, picking/placing objects up to 25kg, learning tasks from demonstration via imitation learning.
+
+**Current limitations**: Dexterous manipulation (screws, cables, flexible materials) at 60–75% success rate. Outdoor navigation, adverse weather, and novel environments remain challenging.
+
+**Market projection**: $38B by 2035 [Goldman Sachs, 2025]. Growth gated by battery energy density, actuator cost reduction, and manipulation capability maturation.
 
 ---
 
+## 12. Foundation Models for Robotics
+
+The most transformative development in robotics 2023–2026: pre-training large models on diverse robot data and deploying as generalist policies:
+
+| Model | Organization | Key Result | Access |
+|---|---|---|---|
+| **RT-2** | Google DeepMind | 62% success on novel tasks; emergent reasoning | Research |
+| **RT-X** | 23 institutions | Cross-embodiment generalization across 22 robot types | Open data |
+| **Octo** | Berkeley | Outperforms baselines on 9/14 benchmarks | Open source |
+| **π0 (pi-zero)** | Physical Intelligence | Dexterous manipulation: cloth, cables, assemblies | Research |
+| **Gemini Robotics** | Google DeepMind | Natural language → unstructured environment actions | API |
+| **Lerobot** | Hugging Face | Pre-trained policies for common manipulation tasks | Open source |
+
+**Key insight**: Scaling robot training data (Open X-Embodiment: 1M → 2M+ trajectories) yields consistent capability improvements, analogous to LLM scaling laws.
+
+**Open question**: Do robot scaling laws produce emergent capabilities at data thresholds comparable to LLMs? Active research area at Berkeley, MIT, Google DeepMind.
+
+**See also**: [AI-Driven Automation §4](ai_driven_automation.md) for detailed foundation model coverage.
+
+---
+
+## 13. Future Outlook
+
+The robotics sector is at an inflection point driven by AI, sensor cost reduction, and foundation models:
+
+- **Foundation model era**: Single pre-trained policies handling many tasks, reducing per-task engineering cost by 10–100×.
+- **Humanoid proliferation**: 2026–2030 likely sees scaling from thousands to hundreds of thousands of units; initially in controlled manufacturing, then expanding.
+- **Democratization**: Lerobot, Octo, and open-source stacks enable university and startup R&D without proprietary middleware.
+- **Human-robot teams**: Complementary roles — robots handle precision, repetition, hazard; humans handle ambiguity, creativity, and social interaction.
+- **Cost reduction**: Cobot arm costs dropped from $50K (2015) to $15–20K (2025); continued decline will expand SME adoption dramatically.
+
+As dexterous manipulation and outdoor navigation mature, robotics will expand from structured manufacturing into services, healthcare, and home environments.
+
+---
+
+*Last updated: 2026-05-07 | v2.0*
