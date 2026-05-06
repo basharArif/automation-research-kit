@@ -29,7 +29,7 @@ export default function HomePage() {
         <br/><br/>
         Navigate the core memory banks via the terminal sidebar.
         <br/>
-        System status: OPTIMAL.
+        <span className="highlight">System status: OPTIMAL.</span>
       </p>
     </div>
   );
